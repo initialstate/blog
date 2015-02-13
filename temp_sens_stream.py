@@ -3,7 +3,7 @@ import glob
 import time
 from ISStreamer.Streamer import Streamer
 
-logger = Streamer(bucket="Temperature Stream", client_key="")
+logger = Streamer(bucket_name="Temperature Stream", access_key="")
 
 os.system('modprobe w1-gpio') 
 os.system('modprobe w1-therm')

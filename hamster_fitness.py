@@ -3,7 +3,7 @@ import time
 import datetime
 import math
 from ISStreamer.Streamer import Streamer
-streamer = Streamer("Hamster Fitness Tracker", client_key="PUT YOUR CLIENT KEY HERE")
+streamer = Streamer(bucket_name="Hamster Fitness Tracker", access_key="PUT YOUR CLIENT KEY HERE")
 streamer.log("ZooZoo Says","")
 
 # Setup Pins
